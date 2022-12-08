@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,500&family=Roboto:ital,wght@0,100;0,900;1,100;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+}
+body{
+    /* border: 10px solid firebrick ; */
+    height: 90vh;
+    width: 100vw;
+}
+.box{
+    /* border: 5px solid black; */
+    height: 80%;
+    width: 80%;
+    margin: 5% auto ;
+    display: flex;
+    flex-direction: rows;
+    /* border-radius: 25; */
+    
+}
+.cards1{
+    height: 100%;
+    width: 35%;
+    /* border: 5px salmon solid; */
+    border-radius: 25px 0 0 25px;
+    background-color: #e38826;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    gap:15%
+}
+.cards2{
+    height: 100%;
+    width: 35%;
+    /* border: 5px salmon solid; */
+    background-color: #006970;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    gap:15%
+}
+.cards3{
+    height: 100%;
+    width: 35%;
+    /* border: 5px salmon solid; */
+    border-radius: 0 25px 25px 0 ;
+    background-color: #004241;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    gap:15%
+}
+
+.imag1{
+    /* border: 1px solid blue; */
+    height: 40px;
+    width: 40px;
+    background-color: #b66d1e;
+    border-radius: 60px;
+    padding-left:20px;
+    padding-top: 1px;
+    margin-top: 50px;
+}
+.imag2{
+    /* border: 1px solid blue; */
+    height: 40px;
+    width: 40px;
+    background-color: #00545a;
+    border-radius: 60px;
+    padding-left:20px;
+    padding-top: 1px;
+    margin-top: 50px;
+}
+.imag3{
+    /* border: 1px solid blue; */
+    height: 40px;
+    width: 40px;
+    background-color: #003534;
+    border-radius: 60px;
+    padding-left:20px;
+    padding-top: 1px;
+    margin-top: 50px;
+}
+.sed{
+    font-size: 3rem;
+    font-weight: 800; 
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.lear{
+    border: 10px white solid;
+    width: 140px;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 5px;
+    background-color: white;
+    color: #e38826;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 300;
+
+}
